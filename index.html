@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Deep dive game</title>
+</head>
+
+<body>  
+
+    <div class="container">
+        <canvas id="canvas1" width="430" height="665" ></canvas>
+            
+            <button id="startButton">START</button>
+            <button id="resetButton" style="display:none">RESTART</button>
+            <p id="gameOver">GAME OVER</p>
+            
+            <div id="bar">
+                <p>Game speed</p>
+                <input type="range" min="1" max="8" value="3.5" class="slider" id="slider">
+            </div>
+
+            <div id="label-score">
+                <div id="label">score:</div>
+                <span id="score">0</span>
+            </div>            
+        
+            
+        <div id="label-score2">
+            <div id="label2">best score:</div>
+            <span id="score2"></span>
+        </div>  
+    </div>
+    <script type="module" src="scriptLast.js"></script>
+
+</body>
+</html>
