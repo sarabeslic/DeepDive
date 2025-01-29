@@ -10,4 +10,7 @@ Gravity: Diver sinks if not moving 🏊‍♂️
 Objective
 Navigate through the cave, avoid sharp edges and the shark, and reach the greatest distance 🌟
 
-![Game Screenshot](Deepdivescreen.png)
+
+## Game Screenshot
+![Game Screenshot](DeepDiveScreen.png)
+
